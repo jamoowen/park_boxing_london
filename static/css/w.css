@@ -1,0 +1,58 @@
+body {
+
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+a:hover {
+    color:rgb(161, 7, 7) !important;
+
+}
+
+.back {
+
+    background-image: url('/static/img/ali2.jpg');
+  
+    background-size: cover;
+    
+  
+
+}
+
+.red {
+    background-color: rgb(161, 7, 7);
+    
+    color: white;
+    
+    text-align: center;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
